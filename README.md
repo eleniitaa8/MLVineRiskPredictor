@@ -31,11 +31,14 @@ VineRiskPredictor/
 │   └── external/          # Data from external sources
 ├── notebooks/
 ├── src/
-│   ├── data/              # Data loading and preprocessing
-│   ├── features/          # Feature engineering and selection
-│   ├── models/            # Model training and evaluation
-│   ├── visualization/     # Data visualization and analysis
-│   └── utils/             # Utility functions and helpers
+│   ├── eda.py                      # General functions to load and visualize data
+│   ├── data_ingest.py              # Data loading and preprocessing, CSV merging
+│   ├── clean.py                    # Data cleaning functions 
+│   ├── feature_engineering.py      # Feature engineering functions
+│   ├── train.py                    # Complete pipeline with model training and evaluation
+|   ├── predict.py                  # Prediction functions
+├── reports/
+│   ├── figures/                    # Figures and plots
 ├── requirements.txt
 ├── environment.yml
 ├── README.md
