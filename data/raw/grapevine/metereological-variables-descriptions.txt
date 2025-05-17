@@ -1,0 +1,36 @@
+"estacion": Name of the station to which the data belongs
+"ubi": Name of the station to which the data belongs
+"anio": Year to which the data belongs
+"dia": Day of the year to which the data belongs
+"fecha": Date to which the data belongs
+"tmed_min": Minimum temperature reached in the station in that date.
+"tmed_max": Maximum temperature reached in the station in that date.
+"tmed_mean": Mean temperature reached in the station in that date.
+"rad_min": Minimum solar radiation reached in the station in that date.
+"rad_max": Maximum solar radiation reached in the station in that date.
+"rad_mean": Mean solar radiation reached in the station in that date.
+"hr_mean": Mean relative humidity measured in the station in that date.
+"hourFrac_sum": As we are concerning on resumes from hourly data, this variable counts the number of hours included in such resume. If there are hors missing, it will be visible here.
+"potentialDormancyDay": Binary variable. It takes value 0 if theoretically a grapevine ubicated near the station would be hibernating and 1 if not.
+"season": Season to which the data belongs
+"rad_sum": Solar radiation recived that date in the station
+"precip_sum": Precipitations recived that date in the station
+"wind_N": Mean wind speed in the nord component
+"wind_NE": Mean wind speed in the nordeast component
+"wind_E": Mean wind speed in the east component
+"wind_SE": Mean wind speed in the southeast component
+"wind_S": Mean wind speed in the south component
+"wind_SW": Mean wind speed in the southwest component
+"wind_W": Mean wind speed in the west component
+"wind_NW": Mean wind speed in the northwest component
+"SeasonDay_t0": Day of the year starting the 't0' accumulation (used in the cummulative variables that come before).
+"SeasonDay_1": Day of the year starting the '1' accumulation (used in the cummulative variables that come before). It should be the 1 of January
+"SeasonDay_2": Day of the year starting the '2' accumulation (used in the cummulative variables that come before). It should be the 1 of February
+"rad__X__Cumm": Accumulated radiation for the station and date acording to the start in X (it should be 0 if 'dia'<X) 
+"precip__X__Cumm": Accumulated precipitation for the station and date acording to the start in X (it should be 0 if 'dia'<X) 
+"winkler_T_Tbase": New winklre's points added for that station on that date if winkler index starts increasing on temperature 'T'
+"gdd_T_X_Tbase_sum": New GDD (Growing Degree Day) points added for that station on that date if GDD index starts increasing on temperature 'T' and day of the year 'X'
+"chillingDD_T_X_Tbase_sum": New chilling index points added for that station on that date if chilling index starts increasing on temperature 'T' and day of the year 'X'
+"gdd_T_X_Tbase_sum_Cumm": Total GDD (Growing Degree Day) points of the station on that date if GDD index starts increasing on temperature 'T' and day of the year 'X'
+"chillingDD_T_X_Tbasemin_sum": Total chilling index points of the station on that date if chilling index starts increasing on temperature 'T' and day of the year 'X'
+"winkler_T_X_Tbase_Cumm": Total winklre's points of the station on that date if winkler index starts increasing on temperature 'T' and day of the year 'X'
